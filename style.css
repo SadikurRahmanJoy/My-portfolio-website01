@@ -72,3 +72,7 @@ span{
     background-position: left;
     margin-bottom: 10%;
 }
+footer p{
+    text-align: center;
+    color: orange;
+}
