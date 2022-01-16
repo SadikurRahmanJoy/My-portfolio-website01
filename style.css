@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
 #Topheading{
     font-family: 'Neonderthaw', cursive;
     font-family: 'Poppins', sans-serif;
@@ -10,6 +14,29 @@ span{
     color: yellowgreen;
 }
 .link-button{
-color: limegreen;
-background-image: green, white;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(green, red);
+    font-weight: 700;
+    font-family: poppins;
+    font-size: large;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-part{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-paragraph{
+    padding-right: 10px;
 }
